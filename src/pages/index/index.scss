@@ -1,0 +1,55 @@
+.index {
+  padding-left: 15px;
+  padding-right: 15px;
+
+  .form {
+    padding-left: 0px;
+  }
+  .subbtn {
+    margin-top: 30px;
+  }
+  .field {
+    padding:24px 0;
+    background-color:#FFF;
+    color:#333;
+    // border-bottom:1PX #e2ecf4 solid;
+    display:flex;
+    align-items:center;
+  }
+  .field-title {
+    margin-right:16px;
+    width:172px;
+    font-size:32px;
+    line-height:1.5;
+    vertical-align:middle;
+    text-align:left;
+  }
+
+  .field-content {
+    flex:1;
+    display:inline-block;
+    padding-right:18px;
+    font-size:32px;
+    line-height:1;
+    vertical-align:middle;
+  }
+  .field-content at-button + at-button {
+    margin-left: 30px;
+  }
+  .field-content .at-button + .at-button {
+    margin-left: 30px;
+  }
+
+  .tips {
+    font-size:22px;
+    color:#666;
+    line-height:32px;
+    margin:25px 30px 0;
+  }
+  .at-tabs__item {
+    font-size: 40px;
+  }
+  .full {
+    margin-top: 30px;
+  }
+}
