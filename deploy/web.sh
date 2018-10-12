@@ -13,3 +13,5 @@ cd temp_web
 git add -A .
 git commit -m "$TRAVIS_COMMIT_MSG"
 git push origin master
+cd ..
+rm -rf temp_web/
